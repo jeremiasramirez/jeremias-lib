@@ -1,0 +1,84 @@
+
+/*SIZING*/
+.small{
+	width: 320px;
+}
+.medium{
+	width: 600px;
+}
+
+.large{
+	width: 99%;
+}
+
+
+
+
+/*Mensajes alertas*/
+.alert--error{
+	padding: .8em .3em;
+	text-align: center;
+	border-radius: 3px;
+	background-color: orangered;
+	color:white;
+	font-family: sans-serif;
+	font-weight: 600;
+}
+
+.alert--warning{
+	text-align: center;
+	padding: .8em .3em;
+	border-radius: 3px;
+	background-color: darkorange;
+	color:white;
+	font-family: sans-serif;
+	font-weight: 600;
+}
+
+.alert--success{
+	text-align: center;
+	padding: .8em .3em;
+	border-radius: 3px;
+	background-color: rgb(10%,63%,10%);
+	color:white;
+	font-family: sans-serif;
+	font-weight: 600;
+}
+
+.alert--chargin{
+	text-align: center;
+	padding: .8em .3em;
+	border-radius: 3px;
+	background-color: #eee;
+	color: rgba(0%,0%, 90%, 40%);
+	box-shadow: 1px 1px 5px #aaa;
+	font-family: sans-serif;
+	font-weight: 600;
+}
+
+
+
+
+.close{
+	text-align: center;
+	border-radius: 50%;
+	padding:.2em .4em;
+	background-color: transparent;
+	color: white;
+	border:0;
+	font-family: sans-serif;
+	font-weight: 600;
+	float: right;
+	display: inline-block;
+	transition: .3s;
+
+ 
+ 
+}
+.close:hover{
+	cursor: pointer;
+	transition: .3s;
+	background-color: rgba(100%,0%,0%,70%);
+}
+
+
