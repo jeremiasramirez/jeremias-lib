@@ -8,7 +8,7 @@ libreria para gestionar estilos en html y DOM
 SIZES 
 ***css***
 
-(1) small: size small.
+<li>(1) small</li>: size small.
 (2) medium: size medium.
 (2) large: size large 100%.
 
