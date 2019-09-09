@@ -8,9 +8,9 @@ libreria para gestionar estilos en html y DOM
 SIZES 
 ***css***
 
-<li>(1) small</li>: size small.
-(2) medium: size medium.
-(2) large: size large 100%.
+<li>(1) small: size small</li>
+<li>(2) medium: size medium</li>
+<li>(2) large: size large 100%</li>
 
 
 
@@ -18,10 +18,10 @@ SIZES
 MENSAJES DE ALERTAS
 ***css***
 
-(1) alert--error: muestra un mensaje de 'error' al usuario.
-(2) alert--success: para introducir un mensaje de 'error' al usuario.
-(3) alert--warning: para introducir un mensaje de 'advertencia' al usuario.
-(4) alert--chargin: para introducir un mensaje de 'carga de datos' al usuario.
+<li>(1) alert--error: muestra un mensaje de 'error' al usuario</li>
+<li>(2) alert--success: para introducir un mensaje de 'error' al usuario</li>
+<li>(3) alert--warning: para introducir un mensaje de 'advertencia' al usuario</li>
+<li>(4) alert--chargin: para introducir un mensaje de 'carga de datos' al usuario</li>
 
 
 ELEMENTOS VISUALES
