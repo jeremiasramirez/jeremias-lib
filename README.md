@@ -5,8 +5,7 @@ libreria para gestionar estilos en html y DOM
 
 
 
-SIZES 
-***css***
+<h1>SIZES css</h1>
 
 <li>(1) small: size small</li>
 <li>(2) medium: size medium</li>
@@ -15,8 +14,8 @@ SIZES
 
 
 
-MENSAJES DE ALERTAS
-***css***
+<h1>MENSAJES DE ALERTAS
+***css***</h1>
 
 <li>(1) alert--error: muestra un mensaje de 'error' al usuario</li>
 <li>(2) alert--success: para introducir un mensaje de 'error' al usuario</li>
@@ -24,9 +23,9 @@ MENSAJES DE ALERTAS
 <li>(4) alert--chargin: para introducir un mensaje de 'carga de datos' al usuario</li>
 
 
-ELEMENTOS VISUALES
+<h1>ELEMENTOS VISUALES</h1>
 
-(1) close: elemento que elimina al elemento padre del mismo
+<li>(1) close: elemento que elimina al elemento padre del mismo</li>
 
 
 
