@@ -1,5 +1,9 @@
 
 /*SIZING*/
+.min{
+	width: 150px;
+}
+
 .small{
 	width: 320px;
 }
@@ -82,3 +86,37 @@
 }
 
 
+/*BOTONES styles*/
+
+.btn--add  {
+
+	background-color: rgba(0%, 65%, 0%, 100%);
+	border-radius: 5px;
+	padding: .6em .3em;
+	border-color: transparent;
+	font-size: 15px;
+	font-family: arial;
+	font-weight: 600;
+	display: inline-block;
+	text-decoration: none;
+	text-align: center;
+	transition: .3s;
+	color: #eee;
+}
+.btn--add:hover, a:hover, button:hover{
+	transition: .3s;
+	background-color: green;
+	text-decoration: none;
+	color: #eee;
+}
+ 
+.btn--add{
+	color: #ddd;
+	background-color: rgba(0%, 65%, 0%, 100%);
+	border-radius: 5px;
+	padding: .6em .3em;
+	border-color: transparent;
+	font-size: 15px;
+	font-family: arial;
+	font-weight: 600
+}
