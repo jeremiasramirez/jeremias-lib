@@ -85,15 +85,37 @@
 	background-color: rgba(100%,0%,0%,70%);
 }
 
-
 /*BOTONES styles*/
 
 .btn--add  {
 
-	background-color: rgba(0%, 65%, 0%, 100%);
+	background-color: rgba(0%, 70%, 0%, 100%);
 	border-radius: 5px;
-	padding: .6em .3em;
+	padding: .6em .5em;
 	border-color: transparent;
+	font-size: 15px;
+	font-family: arial;
+	font-weight: 600;
+	display: inline-block;
+	text-decoration: none;
+	text-align: center;
+	transition: .3s;
+	color: #fff;
+}
+.btn--add:hover{
+	cursor: pointer;
+	transition: .3s;
+	background-color: green;
+	text-decoration: none;
+}
+/*button de remover */
+
+.btn--rm{
+
+	border-radius: 5px;
+	padding: .6em .5em;
+	border-color: transparent;
+	background-color: rgba(90%, 0%, 0%, 100%);
 	font-size: 15px;
 	font-family: arial;
 	font-weight: 600;
@@ -103,20 +125,10 @@
 	transition: .3s;
 	color: #eee;
 }
-.btn--add:hover, a:hover, button:hover{
+.btn--rm:hover{
 	transition: .3s;
-	background-color: green;
+	background-color: rgba(80%, 0%, 0%, 100%);
 	text-decoration: none;
 	color: #eee;
-}
- 
-.btn--add{
-	color: #ddd;
-	background-color: rgba(0%, 65%, 0%, 100%);
-	border-radius: 5px;
-	padding: .6em .3em;
-	border-color: transparent;
-	font-size: 15px;
-	font-family: arial;
-	font-weight: 600
+	cursor: pointer;
 }
