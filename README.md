@@ -34,7 +34,7 @@ libreria para gestionar estilos en html y DOM
 
 <h1>ELEMENTOS VISUALES</h1>
 
-<li><strong>(1) close:</strong> elemento que elimina al elemento padre del mismo</li>
+<li><strong>(1) close:</strong> elemento que elimina al elemento padre del mismo (ojo, el padre debe tener el Id "parent")</li>
 
 
 
