@@ -50,7 +50,9 @@
 	font-family: sans-serif;
 	font-weight: 600;
 }
-
+.alert--success a{
+	color: white;
+}
 .alert--chargin{
 	text-align: center;
 	padding: .8em .3em;
