@@ -41,6 +41,11 @@
 	font-weight: 600;
 }
 
+.alert--warning a{
+	color: white;
+	text-decoration: none;
+}
+
 .alert--success{
 	text-align: center;
 	padding: .8em .3em;
@@ -52,6 +57,7 @@
 }
 .alert--success a{
 	color: white;
+	text-decoration: none;
 }
 .alert--chargin{
 	text-align: center;
@@ -64,6 +70,10 @@
 	font-weight: 600;
 }
 
+.alert--chargin a{
+	color: green;
+	text-decoration: none;
+}
 
 /*elementos visuales*/
 .fire{
