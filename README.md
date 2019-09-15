@@ -7,6 +7,7 @@ libreria para gestionar estilos en html y DOM
 
 <h1>SIZES css</h1>
 
+<li><strong>(0) min:</strong> size very min</li>
 <li><strong>(1) min:</strong> size min-small</li>
 <li><strong>(2) small:</strong> size small</li>
 <li><strong>(3) medium:</strong> size medium</li>
@@ -29,10 +30,12 @@ libreria para gestionar estilos en html y DOM
 <li><strong>(1) btn--add:</strong> boton con sintaxis de 'aceptar condicion'</li>
 <li><strong>(1) btn--yes:</strong> boton con sintaxis de 'agregar elementos'</li>
 <li><strong>(2) btn--rm:</strong> boton con sintaxis de 'remover elemento o cancelar operacion'</li>
-<li><strong>(3) alert--warning:</strong> para introducir un mensaje de 'advertencia' al usuario</li>
-<li><strong>(4) alert--chargin:</strong> para introducir un mensaje de 'carga de datos' al usuario</li>
+ 
+<h1>FORMULARIOS
+***css***</h1>
 
-
+<li><strong>(1) form:</strong> clase que le da una buena sintaxis al formulario</li>
+ 
 <h1>ELEMENTOS VISUALES</h1>
 
 <li><strong>(1) close:</strong> elemento que elimina al elemento padre del mismo (ojo, el padre debe tener el Id "parent")</li>
