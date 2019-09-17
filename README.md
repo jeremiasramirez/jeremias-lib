@@ -7,7 +7,7 @@ libreria para gestionar estilos en html y DOM
 
 <h1>SIZES css</h1>
 
-<li><strong>(0) min:</strong> size very min</li>
+<li><strong>(0) minmin:</strong> size very min</li>
 <li><strong>(1) min:</strong> size min-small</li>
 <li><strong>(2) small:</strong> size small</li>
 <li><strong>(3) medium:</strong> size medium</li>
