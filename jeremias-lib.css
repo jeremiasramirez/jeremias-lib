@@ -183,3 +183,24 @@
 	box-shadow: 1px 1px 3px #eee; 
 }
  
+ 
+ 	.floatback{
+ 		position: relative;
+ 	}
+ 	.responsive{
+ 		display: flex;
+ 		justify-content: center;
+ 		align-items: center;
+ 	}
+ 	.f{
+ 		display: grid;
+ 		justify-items: center;
+ 		grid-template-rows: 40% 40% 40%;
+ 		grid-template-columns: 100%; 
+
+ 		margin: .3em;
+ 	}
+ 	.f input{
+ 		margin: .2em;
+
+ 	}
