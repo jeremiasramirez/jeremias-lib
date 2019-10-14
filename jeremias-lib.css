@@ -1,5 +1,45 @@
+/*Sizing letters*/
 
-/*SIZING*/
+.letter1{
+	font-size: 12px;
+}
+
+.letter2{
+
+	font-size: 16px;
+
+}
+
+.letter3{
+
+	font-size: 20px;
+
+}
+
+.letter4{
+
+	font-size: 25px;
+}
+
+.letter5{
+	font-size: 32px;
+}
+
+.letter6{
+	font-size: 45px;
+}
+
+
+
+
+
+
+/*
+
+
+SIZING BOX
+
+*/
 .minmin{
 	width: 150px;
 }.min{
@@ -19,35 +59,100 @@
 
 
 
+/*
 
-/*Mensajes alertas*/
+	Notification
+
+*/
+
+.notification{
+	text-align: center;
+	padding: .8em .3em;
+	border-radius: 3px;
+	/*background-color: blue;*/
+	border: 1px solid blue;
+	color:darkblue;
+	font-family: sans-serif;
+	font-weight: 600;
+	transition: 1s;
+}
+.notification:hover{
+	transition: .7s;
+	border-color: lightblue;
+	cursor: pointer;
+	transform: translateY(-2px);
+}
+
+
+/*
+
+	Mensajes alertas
+
+
+*/
+
+
+
 .alert--error{
 	padding: .8em .3em;
 	text-align: center;
 	border-radius: 3px;
 	background-color: orangered;
 	color:white;
+	border: 1px solid white;
+	transition: .8s;
 	font-family: sans-serif;
 	font-weight: 600;
 }
+.alert--error:hover{
+	transition: .7s;
+	cursor: pointer;
+	transform: translateY(-2px);
+}
+
+.alert--error:hover{
+	transition: .4s;
+	cursor: pointer;
+	background-color: white;
+	color: red;
+	border: 1px solid red;
+	transform: translateY(-2px);
+}
+
 
 .alert--warning{
 	text-align: center;
 	padding: .8em .3em;
 	border-radius: 3px;
+	border: 1px solid white;
 	background-color: darkorange;
 	color:white;
 	font-family: sans-serif;
 	font-weight: 600;
+	transition: .8s;
 }
-
+.alert--warning:hover{
+	transition: .4s;
+	cursor: pointer;
+	background-color: white;
+	color: darkorange;
+	border:1px solid darkorange;
+	transform: translateY(-2px);
+}
 .alert--warning a{
 	color: white;
 	text-decoration: none;
 }
 
+
+
+
+
+
 .alert--success{
 	text-align: center;
+	transition: .8s;
+	border: 1px solid white;
 	padding: .8em .3em;
 	border-radius: 3px;
 	background-color: rgb(10%,63%,10%);
@@ -59,7 +164,20 @@
 	color: white;
 	text-decoration: none;
 }
+
+.alert--success:hover{
+	transition: .4s;
+	cursor: pointer;
+	background-color: white;
+	color: green;
+	border: 1px solid green;
+	/*transform: translateY(-2px);*/
+}
+
+
+
 .alert--chargin{
+	border: 1px solid white;
 	text-align: center;
 	padding: .8em .3em;
 	border-radius: 3px;
@@ -67,6 +185,7 @@
 	color: rgba(0%,0%, 90%, 40%);
 	box-shadow: 1px 1px 5px #aaa;
 	font-family: sans-serif;
+	transition: .8s;
 	font-weight: 600;
 }
 
@@ -74,6 +193,23 @@
 	color: rgba(0%, 70%, 0%, 80%);
 	text-decoration: none;
 }
+
+
+.alert--chargin:hover{
+	transition: .4s;
+	cursor: pointer;
+	background-color: white;
+	color: grey;
+	border: 1px solid grey;
+	transform: translateY(-2px);
+}
+
+
+
+
+
+
+
 
 /*elementos visuales*/
 .fire{
@@ -204,3 +340,75 @@
  		margin: .2em;
 
  	}
+
+
+
+/*
+	listas
+
+*/
+
+	.list{
+
+		padding:.3em;
+		text-align: center;
+
+	}
+
+	.list > li{
+		color: #333;
+		list-style: none;
+		font-family: roboto;
+		margin-bottom: .5em;
+		padding: 0 0 1em 0;
+		margin-top: .5em;
+		transition: 1s;
+		border-bottom: 1px solid #eee;
+	}
+	.list > h1{
+		font-size: 25px;
+		border-bottom: 1px solid #eee;
+		font-family: arial;
+	}
+	.list > li:hover{
+		cursor: pointer;
+		transition: .5s;
+		opacity: .8;
+		border-color: #999;
+
+	}
+	
+	.blur{
+		filter: blur(5px);
+	}
+
+
+
+
+/*
+
+	label  - checkbox
+	
+*/
+
+
+.check{
+	background-color: blue;
+	color:white;
+	font-weight:600;
+	font-family: arial;
+	font-size: 15px;
+	width: 120px;
+	text-align: center;
+	display: inline-block;
+	padding:.3em;
+	box-shadow: 2px 1px 5px lightblue; 
+	border: 1px solid #eee;
+	transition: 2s;
+}
+.check:hover{
+	transition: .4s;
+	background-color: darkblue;
+	cursor: pointer;
+	transform-origin: center;
+}
