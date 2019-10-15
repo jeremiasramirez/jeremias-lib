@@ -1,3 +1,8 @@
+body{
+	padding: 0 .4em;
+	margin: 0 0 0 -.3em;
+}
+
 /*Sizing letters*/
 
 .letter1{
@@ -307,7 +312,11 @@ SIZING BOX
 	cursor: pointer;
 }
 
-/*formulario*/
+/*
+
+	formulario
+
+*/
 .form input{
 
 	border-radius: 5px;
@@ -323,11 +332,14 @@ SIZING BOX
  	.floatback{
  		position: relative;
  	}
+
+
  	.responsive{
  		display: flex;
  		justify-content: center;
  		align-items: center;
  	}
+
  	.f{
  		display: grid;
  		justify-items: center;
@@ -336,6 +348,7 @@ SIZING BOX
 
  		margin: .3em;
  	}
+
  	.f input{
  		margin: .2em;
 
@@ -378,6 +391,13 @@ SIZING BOX
 
 	}
 	
+
+	/*
+		
+		blur opacity
+
+
+	*/
 	.blur{
 		filter: blur(5px);
 	}
@@ -403,7 +423,7 @@ SIZING BOX
 	display: inline-block;
 	padding:.3em;
 	box-shadow: 2px 1px 5px lightblue; 
-	border: 1px solid #eee;
+	border: 1px solid blue;
 	transition: 2s;
 }
 .check:hover{
@@ -412,3 +432,206 @@ SIZING BOX
 	cursor: pointer;
 	transform-origin: center;
 }
+
+
+/*
+	
+	MENUS
+
+*/
+
+
+
+
+	/* MEnu white */
+
+
+	menu--white{
+		display: flex;
+		margin:0;
+		padding: .5em;
+		justify-content: center;
+		background-color: white;
+		border-bottom: 1px solid #eee;
+	}
+	.menu--white >  li {
+		color: #222;
+		list-style: none;
+		margin: 0 10px 0 10px;
+	}
+	.menu--white >  li > a {
+		color: blue;
+ 		text-decoration-line: none;
+ 		font-family: roboto;
+		transition: .4s;
+	}
+	.menu--white >  li > a:hover {
+		opacity: .7;	
+		transition: .4s;
+	}	
+
+
+
+
+ /* 
+
+ MEnu blue
+
+  */
+
+
+
+
+	.menu--blue{
+		display: flex;
+		margin:0;
+		
+		padding: .5em;
+		justify-content: center;
+		background-color: blue;
+
+	}
+	.menu--blue >  li {
+		color: #eee;
+		list-style: none;
+		margin: 0 10px 0 10px;
+	}
+	.menu--blue >  li > a {
+		color: #eee;
+ 		text-decoration-line: none;
+ 		font-family: roboto;
+		transition: .4s;
+	}
+	.menu--blue >  li > a:hover {
+		opacity: .7;	
+		transition: .4s;
+	}	
+
+
+ 
+
+
+
+/*
+	
+		menu black
+
+*/
+	.menu--black{
+		display: flex;
+		margin:0;
+		padding: .5em;
+		border:0;
+		justify-content: right;
+		background-color: #222;
+		align-items: center;
+		border-radius: 3px;
+	}
+	.menu--black >  li {
+		color: #eee;
+		list-style: none;
+		margin: 0 10px 0 10px;
+		padding-left: 2px;
+	}
+	.menu--black >  li > a {
+		color: #eee;
+ 		text-decoration-line: none;
+ 		font-family: roboto;
+		transition: .4s;
+	}
+	.menu--black >  li > a:hover {
+		opacity: .7;	
+		transition: .4s;
+	}
+
+
+
+	/*
+
+	responsive menu
+
+	*/
+
+	
+	@media screen and (max-width: 500px){
+
+
+/*
+			menu black responsive
+*/
+		.menu--black{
+			width: 300px;
+			display: flex;
+			flex-direction: column;
+			position: sticky;
+			transform-origin: top;
+			transition: .8s;
+		}
+	 
+		.menu--black >  li {
+			color: #eee;
+			list-style: none;
+			
+			margin: 10px 10px 10px 10px;
+			padding-left: 2px;
+		}
+
+
+
+
+/*
+			menu white responsive
+*/
+
+
+
+		.menu--white{
+			/*width: 300px;*/
+			display: flex;
+			justify-content: space-between;
+			position: sticky;
+			transform-origin: top;
+			transition: .8s;
+			padding:0;
+			top:0;
+			margin: 0 0 .8em 0;
+			background-color: white;
+			justify-content: center;
+			border-bottom: 1px solid #eee;
+			box-shadow: 1px 1px  8px #ccc;
+		}
+	 
+		.menu--white >  li {
+			color: #eee;
+			list-style: none;
+			padding: .2em 0 .3em 0;
+			padding-left: 2px;
+		}
+
+ 
+
+
+
+		
+/*
+			menu blue responsive
+*/
+
+		.menu--blue{
+			/*width: 300px;*/
+			display: flex;
+			justify-content: space-between;
+			position: sticky;
+			transform-origin: top;
+			transition: .8s;
+			padding:.3em;
+			top:0;
+			margin: 0 0 .8em 0;
+			background-color: blue;
+			justify-content: center;
+			/*border-bottom: 1px solid lblue;*/
+			box-shadow: 1px 1px  7px blue;
+		}
+	 
+
+	}
