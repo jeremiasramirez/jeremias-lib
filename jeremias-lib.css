@@ -635,3 +635,40 @@ SIZING BOX
 	 
 
 	}
+
+/*
+table
+
+*/
+
+
+	.night{
+		background-color: #333;
+		color: #eee;
+	}
+	.table{
+		display: flex;
+		justify-content: center;
+		text-align: center;
+		padding: .4em 2em;
+	}
+	.table tr th{
+		padding: .5em 1em;
+		font-family: sans-serif;
+
+	}
+	.table tr td{
+		padding-left: .8em;
+		padding-bottom: .5em;
+		padding-top: .5em;
+		font-family: arial;
+		border-bottom: 1px solid #eee;
+		transition: .7s;
+	}
+  
+	.table tr:hover{
+		opacity: .5;
+		transform: translateX(-1px);
+		transition: .4s;
+		cursor: pointer;
+	}
