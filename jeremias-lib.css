@@ -650,17 +650,12 @@ table
 		display: flex;
 		justify-content: center;
 		text-align: center;
-<<<<<<< HEAD
-		/*border:1px solid blue;*/
 		padding: .4em 2em;
 	}
 	.table tr th{
-		/*border: 1px solid red;*/
-=======
 		padding: .4em 2em;
 	}
 	.table tr th{
->>>>>>> origin/master
 		padding: .5em 1em;
 		font-family: sans-serif;
 
@@ -680,7 +675,3 @@ table
 		transition: .4s;
 		cursor: pointer;
 	}
-<<<<<<< HEAD
-  
-=======
->>>>>>> origin/master
