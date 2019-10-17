@@ -656,7 +656,7 @@ table
 		padding: .4em 2em;
 	}
 	.table tr th{
-		padding: .5em 1em;
+		padding: .5em 1em 1.2em;
 		border-right:1px solid #ddd;
 		font-family: sans-serif;
 		/*border-bottom: 1px solid #eee;*/
@@ -664,8 +664,8 @@ table
 	}
 	.table tr td{
 		text-align: left;
-		padding-left: .8em;
-		padding-bottom: .5em;
+		padding-left: 1.3em;
+		padding-bottom: 1.2em;
 		padding-top: .5em;
 		font-family: arial;
 		border-bottom: 1px solid #eee;
