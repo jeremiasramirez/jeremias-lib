@@ -732,14 +732,26 @@ table
 
 	}
 }
+<<<<<<< HEAD
+=======
 
+>>>>>>> e74fd22980bfe9cf8771bd07a36b91bec5025577
 
 /*
 	family letters
 
+<<<<<<< HEAD
+/*
+	family letters
+
+=======
+>>>>>>> e74fd22980bfe9cf8771bd07a36b91bec5025577
  */
  .title {
 	 color: #222;
 	 font-family: arial;
+<<<<<<< HEAD
 	 text-align: center;
+=======
+>>>>>>> e74fd22980bfe9cf8771bd07a36b91bec5025577
  }
