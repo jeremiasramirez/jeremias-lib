@@ -43,8 +43,9 @@ libreria para gestionar estilos en html y DOM
 
 <li><strong>(1) close:</strong> elemento que elimina al elemento padre del mismo (ojo, el padre debe tener el Id "parent").</li>
 
-<li><strong>(1) blur:</strong> clase que le da una opacidad a cierto elemento.</li>
+<li><strong>(2) blur:</strong> clase que le da una opacidad a cierto elemento.</li>
 
+<li><strong>(3) dark:</strong> clase que le da un fondo negro a un elementos.</li>
  
 <h1>LISTAS</h1>
 
@@ -61,13 +62,28 @@ libreria para gestionar estilos en html y DOM
 <li><strong>(6) letter6:</strong> letra Extreme</li>
 
 
+<h1>Tablas</h1>
+
+<li><strong>(1) table:</strong>apariencia en una tabla de elementos</li>
 
 
 
+<h1>Menu</h1>
+
+<li><strong>(1) menu--blue:</strong> letra minima</li>
+
+<li><strong>(2) menu--white:</strong> letra minima</li>
+
+<li><strong>(3) menu--black:</strong> letra minima</li>
+
+<li><strong>(4) menu--red:</strong> letra minima</li>
 
 
+<h1>animations</h1>
 
+<li><strong>(1) in</strong> letra minima</li>
 
+<li><strong>(2) out:</strong> letra minima</li>
 
 
 

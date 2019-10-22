@@ -102,7 +102,7 @@ SIZING BOX
 	padding: .8em .3em;
 	text-align: center;
 	border-radius: 3px;
-	background-color: orangered;
+	background-color: rgba(100%, 0%, 0%, 60%);
 	color:white;
 	border: 1px solid white;
 	transition: .8s;
@@ -199,7 +199,7 @@ SIZING BOX
 	text-decoration: none;
 }
 
-
+ 
 .alert--chargin:hover{
 	transition: .4s;
 	cursor: pointer;
@@ -679,3 +679,61 @@ table
 		transition: .4s;
 		cursor: pointer;
 	}
+
+
+	/* 
+		background elements
+	*/
+
+.dark {
+	background-color:#222;
+	color:white;
+	border: black;
+}
+.dark:hover{
+	background-color: black;
+}
+
+
+
+/* 
+	animation
+*/
+
+.in{
+	animation: in .3s linear;
+	transition:.6s;
+}
+@keyframes in {
+	to{
+		transition:.8s;
+		overflow-y: hidden;
+		overflow-x: hidden;
+		transform:  scaleX(1.1);
+		transform-origin:center;
+	}
+}
+ 
+
+
+
+
+.out{
+	animation: out .3s linear;
+	transition:.6s;
+}
+@keyframes out {
+	to{
+		transition:.8s;
+		overflow-x: hidden;
+		transform: scale(.9) ;
+		overflow-y: hidden;
+		transform-origin:center;
+		
+	}
+}
+ 
+
+
+
+
