@@ -402,7 +402,16 @@ SIZING BOX
 		filter: blur(5px);
 	}
 
-
+.blurtime{
+	transition: 1s;
+	animation:blurtimes .8s linear;
+}
+@keyframes blurtimes{
+	to{
+		filter: blur(5px);
+		transition:1s;
+	}
+}
 
 
 /*
