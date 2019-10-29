@@ -257,7 +257,9 @@ SIZING BOX
 	text-decoration: none;
 	text-align: center;
 	transition: .3s;
-	color: #fff;
+	color: rgb(110, 101, 101);
+	margin:.7em;
+	color: white;
 }
 .btn--add:hover{
 	cursor: pointer;
@@ -281,6 +283,7 @@ SIZING BOX
 	text-align: center;
 	transition: .3s;
 	color: #eee;
+	margin:.7em;
 }
 .btn--rm:hover{
 	transition: .3s;
@@ -303,6 +306,9 @@ SIZING BOX
 	text-align: center;
 	transition: .3s;
 	color: #eee;
+	<button class="btn--add min">
+	Send 
+</button>
 }
 .btn--yes:hover{
 	transition: .3s;
@@ -317,27 +323,32 @@ SIZING BOX
 	formulario
 
 */
+.form {
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
 .form input{
 
 	border-radius: 5px;
 	padding: .3em .5em;
 	font-size: 18px;
+	margin-top:0em;
 	border: 1px solid #ddd;
 	font-family: sans-serif;
 	text-align: center;
 	box-shadow: 1px 1px 3px #eee;
+	margin-bottom: .5em;
 }
 
-
- 	.floatback{
- 		position: relative;
- 	}
-
+ 
 
  	.responsive{
  		display: flex;
  		justify-content: center;
- 		align-items: center;
+		 align-items: center;
+		 flex-direction: column;
  	}
 
  	.f{
@@ -420,6 +431,12 @@ SIZING BOX
 
 */
 
+.label--error{
+
+	background-color: rgba(100%,0%,0%,40%);
+	color: white;
+	 
+}
 
 .check{
 	background-color: blue;
