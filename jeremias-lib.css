@@ -497,7 +497,7 @@ SIZING BOX
 	.menu--white >  li > a {
 		color: blue;
  		text-decoration-line: none;
- 		font-family: roboto;
+		font-family: roboto, serif;
 		transition: .4s;
 	}
 	.menu--white >  li > a:hover {
@@ -629,11 +629,11 @@ SIZING BOX
 			transition: .8s;
 			padding:0;
 			top:0;
-			margin: 0 0 .8em 0;
+			margin: 0 -3px 2em 0;
 			background-color: white;
 			justify-content: center;
 			border-bottom: 1px solid #eee;
-			box-shadow: 1px 1px  8px #ccc;
+			box-shadow: -1px 1px  8px #ccc;
 		}
 
 		.menu--white >  li {
