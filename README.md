@@ -39,6 +39,8 @@ libreria para gestionar estilos en html y DOM
 
  <li><strong>(2) check:</strong> clase para label que contenga inputs con type=checkbox</li>
  
+  <li><strong>(2) select:</strong> estiliza la etiqueta select</li>
+ 
 <h1>ELEMENTOS VISUALES</h1>
 
 <li><strong>(1) close:</strong> elemento que elimina al elemento padre del mismo (ojo, el padre debe tener el Id "parent").</li>
