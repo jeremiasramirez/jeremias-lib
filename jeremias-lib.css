@@ -139,7 +139,7 @@ SIZING BOX
 .alert--warning:hover{
 	transition: .4s;
 	cursor: pointer;
-	background-color: white;
+  	background-color: white;
 	color: darkorange;
 	border:1px solid darkorange;
 	transform: translateY(-2px);
@@ -342,6 +342,29 @@ SIZING BOX
 	box-shadow: 1px 1px 3px #eee;
 	margin-bottom: .5em;
 }
+
+	.select{
+		width: 80%;
+		color:#222;
+		font-size: 18px;
+		font-family: albattar;
+		padding:.5em;
+		border:none;
+		text-align: center;
+		background-color: blue;
+		color:white;
+		margin: .3em;
+		border-radius: 5px;
+		transition:.9s;
+		
+	}
+	.select:hover{
+		transition:.6s;
+		cursor: pointer;
+		transform-origin: top center;
+		background-color: darkblue;
+ 
+	}
 
  
 
