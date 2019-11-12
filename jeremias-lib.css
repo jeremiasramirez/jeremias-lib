@@ -139,7 +139,7 @@ SIZING BOX
 .alert--warning:hover{
 	transition: .4s;
 	cursor: pointer;
-	background-color: white;
+  	background-color: white;
 	color: darkorange;
 	border:1px solid darkorange;
 	transform: translateY(-2px);
@@ -343,6 +343,29 @@ SIZING BOX
 	margin-bottom: .5em;
 }
 
+	.select{
+		width: 80%;
+		color:#222;
+		font-size: 18px;
+		font-family: albattar;
+		padding:.5em;
+		border:none;
+		text-align: center;
+		background-color: blue;
+		color:white;
+		margin: .3em;
+		border-radius: 5px;
+		transition:.9s;
+		
+	}
+	.select:hover{
+		transition:.6s;
+		cursor: pointer;
+		transform-origin: top center;
+		background-color: darkblue;
+ 
+	}
+
  
 
  	.responsive{
@@ -497,7 +520,7 @@ SIZING BOX
 	.menu--white >  li > a {
 		color: blue;
  		text-decoration-line: none;
- 		font-family: roboto;
+		font-family: roboto, serif;
 		transition: .4s;
 	}
 	.menu--white >  li > a:hover {
@@ -629,11 +652,11 @@ SIZING BOX
 			transition: .8s;
 			padding:0;
 			top:0;
-			margin: 0 0 .8em 0;
+			margin: 0 -3px 2em 0;
 			background-color: white;
 			justify-content: center;
 			border-bottom: 1px solid #eee;
-			box-shadow: 1px 1px  8px #ccc;
+			box-shadow: -1px 1px  8px #ccc;
 		}
 
 		.menu--white >  li {
