@@ -160,7 +160,7 @@ SIZING BOX
 	border: 1px solid white;
 	padding: .8em .3em;
 	border-radius: 3px;
-	background-color: rgb(10%,63%,10%);
+	background-color: rgba(10%, 70%, 20%, 100%);
 	color:white;
 	font-family: sans-serif;
 	font-weight: 600;
