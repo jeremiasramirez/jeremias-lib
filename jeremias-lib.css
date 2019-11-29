@@ -70,20 +70,15 @@ body{
 
 
 .alert--error{
-	padding: .8em .3em;
+	padding: .5em .3em;
 	text-align: center;
-	border-radius: 3px;
+	border-radius: 4px;
 	background-color: rgba(100%, 0%, 0%, 60%);
 	color:white;
 	border: 1px solid white;
 	transition: .8s;
 	font-family: sans-serif;
 	font-weight: 600;
-}
-.alert--error:hover{
-	transition: .7s;
-	cursor: pointer;
-	transform: translateY(-2px);
 }
 
 .alert--error:hover{
@@ -98,10 +93,10 @@ body{
 
 .alert--warning{
 	text-align: center;
-	padding: .8em .3em;
-	border-radius: 3px;
+	padding: .5em .3em;
+	border-radius: 4px;
 	border: 1px solid white;
-	background-color: darkorange;
+	background-color: rgba(100%, 55%, 25%, 100%);
 	color:white;
 	font-family: sans-serif;
 	font-weight: 600;
@@ -129,8 +124,8 @@ body{
 	text-align: center;
 	transition: .8s;
 	border: 1px solid white;
-	padding: .8em .3em;
-	border-radius: 3px;
+	padding: .5em .3em;
+	border-radius: 4px;
 	background-color: rgba(10%, 70%, 20%, 100%);
 	color:white;
 	font-family: sans-serif;
