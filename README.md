@@ -94,3 +94,12 @@ libreria para gestionar estilos en html y DOM
 <li><strong>bg--blue</strong> background blue</li>
 <li><strong>bg--orange</strong> background orange</li>
 <li><strong>bg--green</strong> background green</li>
+
+
+<!-- Modal images -->
+
+<h1>Modal image</h1>
+<ul> 
+  <li><strong>box--images</strong> id: a container images</li>
+ 
+</ul>
