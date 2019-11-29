@@ -810,10 +810,10 @@ table
 
 /*red*/
 .bg--red{
-	background-color: rgba(85%, 0%, 0%, 90%);
+	background-color: rgba(80%, 0%, 0%, 70%);
 }
 .bg--red:hover{
-	background-color: rgba(70%, 0%, 0%, 100%);
+	background-color: rgba(90%, 0%, 0%, 90%);
 	border: none;
 }
 
@@ -867,6 +867,17 @@ table
 .bg--white:hover{
 	background-color: #ddd;
 	border: 0 solid white;
+}
+
+
+/*green*/
+.bg--green{
+	background-color: rgba(0%, 70%, 0%, 80%);
+	color: white;
+ 
+}
+.bg--green:hover{
+	background-color: rgba(0%, 60%, 0%, 75%);
 }
 
 

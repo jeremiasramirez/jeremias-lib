@@ -90,6 +90,7 @@ libreria para gestionar estilos en html y DOM
 <h1>Selects Colors</h1>
 
 <li><strong>bg--red</strong> background red</li>
-<li><strong>bg--black</strong> background blue</li>
-<li><strong>bg--blue</strong> background black</li>
+<li><strong>bg--black</strong> background black</li>
+<li><strong>bg--blue</strong> background blue</li>
 <li><strong>bg--orange</strong> background orange</li>
+<li><strong>bg--green</strong> background green</li>
