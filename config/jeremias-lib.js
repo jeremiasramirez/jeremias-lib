@@ -100,6 +100,7 @@ var __extends = (this && this.__extends) || (function () {
         };
         return blockEvent;
     }(boxImage));
+    var containerImages__ = document.getElementById("box--images"), imagesFromContainer__ = containerImages__.getElementsByTagName("img");
     var executeBox__ = function (containerImages__, imagesFromContainer__) {
         if (containerImages__ === void 0) { containerImages__ = null; }
         if (imagesFromContainer__ === void 0) { imagesFromContainer__ = null; }
@@ -116,6 +117,5 @@ var __extends = (this && this.__extends) || (function () {
             lockEvent.lockedEvent(true);
         }
     };
-    var containerImages__ = document.getElementById("box--images"), imagesFromContainer__ = containerImages__.getElementsByTagName("img");
     executeBox__(containerImages__, imagesFromContainer__);
 })();

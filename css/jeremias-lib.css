@@ -1,6 +1,6 @@
 body{
 	margin:0;
-	/* overflow-y: hidden; */
+	 overflow-x: hidden; 
 	padding:0
 }
 
@@ -324,6 +324,18 @@ body{
 	margin-top:.8em;
 	flex-direction: column;
 }
+.input{
+	border-radius: 5px;
+	padding: .6em .5em .6em 1.5em;
+	font-size: 18px;
+	margin-top:0em;
+	border: none;
+	font-family: sans-serif;
+	background-color: #eee;
+	box-shadow: 1px 1px 3px #eee;
+	margin-bottom: .5em;
+	width: 290px;
+}
 .form input{
 
 	border-radius: 5px;
@@ -345,8 +357,6 @@ body{
 		padding: .1em 0em .8em 2em;
 		border:none;
 		text-align: center;
-		background-color: blue;
-		color:white;
 		margin: .3em;
 		height: 40px;
 		border-radius: 5px;
@@ -360,7 +370,7 @@ body{
 	.select option{
 		text-align: center;
 		padding: .5em;
-		background-color: white;
+		color:;
 	}
 
  
@@ -840,7 +850,7 @@ table
 }
  
 .bg--red:hover{
-	background-color: rgba(90%, 0%, 0%, 90%);
+	background-color: rgba(90%, 0%, 0%, 60%);
 	border: none;
 }
 

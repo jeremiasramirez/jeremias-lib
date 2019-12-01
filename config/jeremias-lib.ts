@@ -144,6 +144,10 @@
 
 	}
 
+
+let containerImages__ = document.getElementById("box--images"),
+	imagesFromContainer__ = containerImages__.getElementsByTagName("img"); 
+ 
 let executeBox__ = function(containerImages__: any=null, imagesFromContainer__: any = null){
 
 	if( (containerImages__ 		=== 	null) 		|| 
@@ -152,6 +156,8 @@ let executeBox__ = function(containerImages__: any=null, imagesFromContainer__: 
 		(imagesFromContainer__ 	=== 	undefined)
 		){
 		console.log("container not exist");
+ 				
+ 
 	}
 	else{
 
@@ -172,9 +178,6 @@ let executeBox__ = function(containerImages__: any=null, imagesFromContainer__: 
 	}
 
 } 	
-
-let containerImages__ = document.getElementById("box--images"),
-	imagesFromContainer__ = containerImages__.getElementsByTagName("img"); 
 
 executeBox__(
 	containerImages__, 
