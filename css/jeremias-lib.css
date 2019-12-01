@@ -44,14 +44,25 @@ body{
 
 .notification{
 	text-align: center;
-	padding: .8em .3em;
 	border-radius: 3px;
-	/*background-color: blue;*/
-	border: 1px solid blue;
+	background-color: white;
+	border: 1px solid lightblue;
 	color:darkblue;
 	font-family: sans-serif;
 	font-weight: 600;
 	transition: 1s;
+	text-decoration: none;
+	display: inline-block;
+	animation: notification__msj 2s infinite linear ;
+}
+.notification , *{
+	padding: .6em .4em;
+	font-size: 15px;
+}
+@keyframes notification__msj{
+	to{
+		border-color: darkblue;
+	}
 }
 .notification:hover{
 	transition: .7s;
@@ -283,6 +294,24 @@ body{
 	cursor: pointer;
 }
 
+
+.btn--info{
+	text-align: center;
+	border-radius: 3px;
+	background-color: white;
+	border: 1px solid blue;
+	color:darkblue;
+	font-family: sans-serif;
+	font-weight: 600;
+	transition: 1s;
+	cursor: pointer;
+	text-decoration: none;
+	display: inline-block;
+}
+.btn--info , *{
+	padding: .6em .4em;
+	font-size: 15px;
+}
 /*
 
 	formulario
