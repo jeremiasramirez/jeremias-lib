@@ -36,6 +36,8 @@ libreria para gestionar estilos en html y DOM
 
 <li><strong>(1) form:</strong> clase que le da una buena sintaxis al formulario, removiendo curvaturas no agradables.</li>
 
+<li><strong>(1) input:</strong> clase que le da una buena sintaxis al input indicado</li>
+
 
  <li><strong>(2) check:</strong> clase para label que contenga inputs con type=checkbox</li>
  
@@ -82,9 +84,9 @@ libreria para gestionar estilos en html y DOM
 
 <h1>animations</h1>
 
-<li><strong>(1) in</strong> letra minima</li>
+<li><strong>(1) in</strong> animacion  de salida</li>
 
-<li><strong>(2) out:</strong> letra minima</li>
+<li><strong>(2) out:</strong> animacion  de salida</li>
 
 
 <h1>Selects Colors</h1>
@@ -100,6 +102,6 @@ libreria para gestionar estilos en html y DOM
 
 <h1>Modal image</h1>
 <ul> 
-  <li><strong>box--images</strong> id: a container images</li>
+  <li><strong>box--images</strong> id: del contenedor imagenes</li>
  
 </ul>
