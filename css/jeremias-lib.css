@@ -531,7 +531,7 @@ body{
 	/* MEnu white */
 
 
-	menu--white{
+	.menu--white{
 		display: flex;
 		margin:0;
 		padding: .5em;
@@ -570,7 +570,7 @@ body{
 	.menu--blue{
 		display: flex;
 		margin:0;
-
+		
 		padding: .5em;
 		justify-content: center;
 		background-color: blue;
@@ -611,6 +611,7 @@ body{
 		background-color: #222;
 		align-items: center;
 		border-radius: 3px;
+
 	}
 	.menu--black >  li {
 		color: #eee;
@@ -651,6 +652,17 @@ body{
 			position: sticky;
 			transform-origin: top;
 			transition: .8s;
+			margin: -.7em -.5em;
+			height: 100vh;
+			transition: .5s;
+			animation: hid 1s linear;
+		}
+		@keyframes hid{
+			to{
+				/*opacity: .7;*/
+				filter: blur(5px);
+				color: #333;
+			}
 		}
 
 		.menu--black >  li {
@@ -704,18 +716,30 @@ body{
 
 		.menu--blue{
 			/*width: 300px;*/
-			display: flex;
-			justify-content: space-between;
-			position: sticky;
-			transform-origin: top;
+			display: block;
 			transition: .8s;
-			padding:.3em;
-			top:0;
-			margin: 0 0 .8em 0;
+			position: absolute;
+			width: 100%;
+			height: 100vh;
+			/*margin:;*/
+			padding: 1em 0;
+			text-align: center;
+			margin: -.6em 0 0em -.4em;
 			background-color: blue;
-			justify-content: center;
+			 
 			/*border-bottom: 1px solid lblue;*/
 			box-shadow: 1px 1px  7px blue;
+		}
+		.menu--blue li{
+			margin: .8em;
+			font-size: 20px;
+			animation: leftAnim 1s linear;
+		}
+		@keyframes leftAnim{
+			to{
+				/*transform: translateX(100px);*/
+				opacity: .5;
+			}
 		}
 
 
