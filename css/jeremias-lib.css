@@ -131,7 +131,7 @@ body{
 .alert--info{
 	text-align: center;
 	transition: .8s;
-	border: 1px solid rgba(0%, 0%, 90%, 65%);
+	border: 1px solid rgba(142, 142, 226, 0.65);
 	padding: .5em .3em;
 	border-radius: 4px;
 	background-color: rgba(0%, 0%, 90%, 65%);
