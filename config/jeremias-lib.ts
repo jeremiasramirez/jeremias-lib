@@ -144,10 +144,32 @@
 
 	}
 
-
-let containerImages__ = document.getElementById("box--images"),
-	imagesFromContainer__ = containerImages__.getElementsByTagName("img"); 
  
+let containerImages__ =document.querySelectorAll("#box--images")
+ 
+let imagesFromContainer__ = [];
+let boxone = [];
+ 
+// console.log(containerImages__)
+for(let i=0; i<containerImages__.length; i++){
+	boxone.push(containerImages__[i])
+}
+for(let i=0; i<boxone.length; i++){
+	 
+	imagesFromContainer__.push(boxone[i])
+ 
+	
+
+}
+
+for(let j=0; j<imagesFromContainer__.length; j++){
+	// imagesFromContainer__.push(imagesFromContainer__[j])
+}
+console.log(imagesFromContainer__)
+
+
+
+
 let executeBox__ = function(containerImages__: any=null, imagesFromContainer__: any = null){
 
 	if( (containerImages__ 		=== 	null) 		|| 
@@ -179,10 +201,10 @@ let executeBox__ = function(containerImages__: any=null, imagesFromContainer__: 
 
 } 	
 
-executeBox__(
-	containerImages__, 
-	imagesFromContainer__
-);
+// executeBox__(
+// 	containerImages__, 
+// 	imagesFromContainer__
+// );
 
  
 
