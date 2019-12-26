@@ -888,6 +888,7 @@ table
 	background-color: rgba(0%, 0%, 0%, 91%);
 	position: fixed;
 	top: 0;
+	left: -12px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -897,6 +898,7 @@ table
 }
 .imageFromModal img{
 	margin-top: -3em;
+	right: 10px;
 	width: 400px;
 	margin: .3em;
 	border-radius: 3px;
@@ -917,7 +919,7 @@ table
 
 @media screen and (max-width: 400px){
 	.imageFromModal img{
-		width: 310px;
+		width: 330px;
 	}
 }
 
