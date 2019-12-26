@@ -147,7 +147,7 @@
 
 let containerImages__ = document.getElementById("box--images"),
 	imagesFromContainer__ = containerImages__.getElementsByTagName("img"); 
- 
+ 	console.log(containerImages__)
 let executeBox__ = function(containerImages__: any=null, imagesFromContainer__: any = null){
 
 	if( (containerImages__ 		=== 	null) 		|| 
