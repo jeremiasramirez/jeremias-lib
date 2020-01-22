@@ -416,26 +416,47 @@ body {
 .list {
     padding: .3em;
     text-align: center;
-    background-color: rgba(0%, 0%, 0%, 1%);
+    /* background-color: rgba(0%, 0%, 0%, 1%); */
+    width: 200px;
 }
 
 .list * {
     color: #333;
     list-style: none;
     font-family: roboto;
-    margin-bottom: .5em;
     padding: 0 0 1em 0;
     margin-top: .5em;
     font-size: 1.2rem;
     cursor: pointer;
     transition: 1s;
-    border-bottom: 1px solid rgba(0%, 0%, 0%, 3%);
 }
 
 .list *:hover {
     transition: 1s;
-    opacity: .7;
+    opacity: .9;
     transform: translateY(-.3px);
+}
+
+.list li {
+    border-bottom: 1px solid rgba(0%, 0%, 0%, 3%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20px;
+    padding-left: .8em;
+    padding-right: .9em;
+    margin-top: 1.2em;
+    /* margin-bottom: -.4em; */
+}
+
+.list li img {
+    width: 25px;
+    height: 25px;
+    border-radius: 5%;
+}
+
+.list li img:hover {
+    transform: scale(1.3)
 }
 
 .list>h1 {
