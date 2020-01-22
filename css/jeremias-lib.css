@@ -256,13 +256,14 @@ body {
 
 /*button de remover */
 
-.btn--rm {
+.btn--error {
     border-radius: 4px;
     padding: .4em .5em;
     border-color: transparent;
     background-color: rgba(80%, 0%, 0%, 80%);
     font-size: 15px;
     font-family: arial;
+    cursor: pointer;
     font-weight: 600;
     display: inline-block;
     text-decoration: none;
@@ -729,6 +730,56 @@ body {
 }
 
 
+/* menu pink */
+
+.menu--pink {
+    display: flex;
+    margin: 0 0 0px 0;
+    padding: 0 0;
+    border: 0;
+    width: 100vw;
+    height: 50px;
+    justify-content: center;
+    background-color: rgba(219, 69, 152, 0.822);
+    align-items: center;
+    transition: 1s;
+    position: sticky;
+    margin-top: -9px;
+    margin-left: -6px;
+    border-bottom: 1px solid rgba(219, 107, 172, 0.952)
+}
+
+.menu--pink>li {
+    font-weight: bolder;
+    color: rgb(248, 247, 247);
+    line-height: 30px;
+    list-style: none;
+    margin: 0 3px -0px 0px;
+    height: 30px;
+    margin-right: 0;
+    padding-left: 2px;
+    padding-top: .7em;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.menu--pink li:hover {
+    background-color: rgba(197, 70, 134, 0.808);
+}
+
+.menu--pink>li>a {
+    color: rgb(255, 251, 251);
+    text-decoration-line: none;
+    font-family: roboto;
+    transition: .4s;
+}
+
+.menu--pink>li>a:hover {
+    opacity: .9;
+    transition: .4s;
+}
+
+
 /*
 table
 
@@ -1010,6 +1061,11 @@ table
     transition: .8s;
 }
 
+.active--pink {
+    background-color: rgba(197, 70, 134, 0.808);
+    transition: .8s;
+}
+
 
 /* color text */
 
@@ -1030,5 +1086,10 @@ table
 
 .text--black {
     color: #222;
+    font-family: Arial;
+}
+
+.text--orange {
+    color: rgb(173, 118, 16);
     font-family: Arial;
 }
