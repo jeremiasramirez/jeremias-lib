@@ -177,29 +177,25 @@ body {
 }
 
 .alert--chargin {
-    border: 1px solid white;
     text-align: center;
-    padding: .8em .3em;
-    border-radius: 3px;
-    background-color: #eee;
-    color: #888;
-    box-shadow: 1px 1px 5px #aaa;
-    font-family: sans-serif;
     transition: .8s;
+    border: 1px solid white;
+    padding: .5em .3em;
+    border-radius: 4px;
+    background-color: rgba(179, 213, 219, 0.705);
+    color: rgb(146, 143, 143);
+    font-family: sans-serif;
     font-weight: 600;
 }
 
 .alert--chargin a {
-    color: rgba(0%, 70%, 0%, 80%);
     text-decoration: none;
 }
 
 .alert--chargin:hover {
     transition: .4s;
     cursor: pointer;
-    background-color: white;
     color: grey;
-    border: 1px solid grey;
     transform: translateY(-2px);
 }
 
@@ -804,12 +800,11 @@ table
 }
 
 @keyframes out {
+    from {
+        opacity: 1;
+    }
     to {
-        transition: .8s;
-        overflow-x: hidden;
-        transform: scale(.9);
-        overflow-y: hidden;
-        transform-origin: center;
+        opacity: 0
     }
 }
 
