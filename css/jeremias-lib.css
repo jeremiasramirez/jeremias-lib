@@ -993,3 +993,26 @@ table
     background-color: rgba(209, 200, 200, 0.884);
     transition: .8s;
 }
+
+
+/* color text */
+
+.text--blue {
+    color: rgb(105, 105, 207);
+    font-family: arial;
+}
+
+.text--white {
+    color: rgb(209, 209, 219);
+    font-family: arial;
+}
+
+.text--red {
+    color: rgb(199, 61, 68);
+    font-family: arial;
+}
+
+.text--black {
+    color: #222;
+    font-family: Arial;
+}
