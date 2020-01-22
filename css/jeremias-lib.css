@@ -592,7 +592,7 @@ body {
     width: 100vw;
     height: 50px;
     justify-content: center;
-    background-color: rgb(34, 60, 180);
+    background-color: rgb(90, 113, 219);
     align-items: center;
     transition: 1s;
     position: sticky;
@@ -615,7 +615,7 @@ body {
 }
 
 .menu--blue li:hover {
-    background-color: rgb(19, 21, 141);
+    background-color: rgb(67, 69, 194);
 }
 
 .menu--blue>li>a {
@@ -626,6 +626,58 @@ body {
 }
 
 .menu--blue>li>a:hover {
+    opacity: .9;
+    transition: .4s;
+}
+
+
+/* menu--blue-dark */
+
+
+/* menu blue */
+
+.menu--blue-dark {
+    display: flex;
+    margin: 0 0 0px 0;
+    padding: 0 0;
+    border: 0;
+    width: 100vw;
+    height: 50px;
+    justify-content: center;
+    background-color: rgba(33, 52, 139, 0.884);
+    align-items: center;
+    transition: 1s;
+    position: sticky;
+    margin-top: -9px;
+    margin-left: -6px;
+}
+
+.menu--blue-dark>li {
+    font-weight: bolder;
+    color: #eee;
+    line-height: 30px;
+    list-style: none;
+    margin: 0 3px -0px 0px;
+    height: 30px;
+    margin-right: 0;
+    padding-left: 2px;
+    padding-top: .7em;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.menu--blue-dark li:hover {
+    background-color: rgb(19, 21, 141);
+}
+
+.menu--blue-dark>li>a {
+    color: #eee;
+    text-decoration-line: none;
+    font-family: roboto;
+    transition: .4s;
+}
+
+.menu--blue-dark>li>a:hover {
     opacity: .9;
     transition: .4s;
 }
@@ -1047,7 +1099,12 @@ table
 }
 
 .active--blue {
-    background-color: rgb(19, 21, 141);
+    background-color: rgb(63, 66, 202);
+    transition: .8s;
+}
+
+.active--blue-dark {
+    background-color: rgb(18, 20, 131);
     transition: .8s;
 }
 
