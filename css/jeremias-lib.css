@@ -900,7 +900,7 @@ table
 	animation
 */
 .inBottom{
-  animation: inBottoms .7s .2s linear;
+  animation: inBottoms .7s  linear;
 }
 @keyframes inBottoms{
   from {
@@ -958,7 +958,7 @@ table
 
 
 .in{
-  animation: ins .7s .3s linear;
+  animation: ins .7s  linear;
   transition: 1s;
 }
 @keyframes ins{
