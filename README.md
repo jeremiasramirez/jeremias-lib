@@ -14,8 +14,10 @@ libreria para gestionar estilos en html y DOM
 <li><strong>(4) large:</strong> size large 100%</li>
 
 
-
-
+<h1>Posicion de contenido</h1>
+<li><strong>(1) contentLeft:</strong> Coloca los elementos a la izquierda</li>
+<li><strong>(2) contentRigth:</strong> Coloca los elementos a la derecha</li>
+<li><strong>(3) contentCenter:</strong> Coloca los elementos al centro</li>
 <h1>MENSAJES DE ALERTAS
 ***css***</h1>
 
@@ -30,7 +32,7 @@ libreria para gestionar estilos en html y DOM
 <li><strong>(1) btn--add:</strong> boton con sintaxis de 'aceptar condicion'</li>
 <li><strong>(1) btn--yes:</strong> boton con sintaxis de 'agregar elementos'</li>
 <li><strong>(2) btn--rm:</strong> boton con sintaxis de 'remover elemento o cancelar operacion'</li>
- 
+
 <h1>FORMULARIOS
 ***css***</h1>
 
@@ -40,9 +42,9 @@ libreria para gestionar estilos en html y DOM
 
 
  <li><strong>(2) check:</strong> clase para label que contenga inputs con type=checkbox</li>
- 
+
   <li><strong>(2) select:</strong> estiliza la etiqueta select</li>
- 
+
 <h1>ELEMENTOS VISUALES</h1>
 
 <li><strong>(1) close:</strong> elemento que elimina al elemento padre del mismo (ojo, el padre debe tener el Id "parent").</li>
@@ -50,7 +52,7 @@ libreria para gestionar estilos en html y DOM
 <li><strong>(2) blur:</strong> clase que le da una opacidad a cierto elemento.</li>
 
 <li><strong>(3) dark:</strong> clase que le da un fondo negro a un elementos.</li>
- 
+
 <h1>LISTAS</h1>
 
 <li><strong>(1) list:</strong> clase que embellece un conjunto de elementos (lists), tambien aplica para los h1 que esten dentro tomando la posicion de titulo</li>
@@ -68,7 +70,7 @@ libreria para gestionar estilos en html y DOM
 
 <h1>Tablas</h1>
 
-<li><strong>(1) table:</strong>apariencia en una tabla de elementos</li>
+<li><strong>(1) table:</strong>apariencia de una tabla de elementos estilizada</li>
 
 
 
@@ -79,15 +81,21 @@ libreria para gestionar estilos en html y DOM
 <li><strong>(2) menu--white:</strong> letra minima</li>
 
 <li><strong>(3) menu--black:</strong> letra minima</li>
- 
 
+<!-- Menu activated -->
+
+<h1>Menu activated</h1>
+
+<li><strong>(3) active</strong> apariencia de item de menu seleccionado.</li>
 
 <h1>animations</h1>
 
-<li><strong>(1) in</strong> animacion  de salida</li>
-
-<li><strong>(2) out:</strong> animacion  de salida</li>
-
+<li><strong>(1) in</strong> animacion fresca para mostrar informacion centrada</li>
+<li><strong>(2) out:</strong> animacion fresca para mostrar informacion de salida</li>
+<li><strong>(3) inTop:</strong> animacion de entrada hacia abajo</li>
+<li><strong>(4) inBottom:</strong> animacion de entrada hacia arriba</li>
+<li><strong>(5) inLeft:</strong> animacion de entrada hacia la derecha</li>
+<li><strong>(5) inRigth:</strong> animacion de entrada hacia la izquierda</li>
 
 <h1>Selects Colors</h1>
 
@@ -101,7 +109,7 @@ libreria para gestionar estilos en html y DOM
 <!-- Modal images -->
 
 <h1>Modal image</h1>
-<ul> 
+<ul>
   <li><strong>box--images</strong> id: del contenedor imagenes</li>
- 
+
 </ul>

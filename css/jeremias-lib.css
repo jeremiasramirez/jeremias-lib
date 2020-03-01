@@ -527,7 +527,6 @@ body {
     transition: 2s;
 }
 
-
 /*
 
 	MENUS
@@ -546,7 +545,7 @@ body {
     justify-content: center;
     background-color: #222;
     align-items: center;
-    transition: 1s;
+    transition: .5s;
     position: sticky;
     margin-bottom: 1em;
 }
@@ -562,7 +561,7 @@ body {
     padding-left: 2px;
     padding-top: .7em;
     cursor: pointer;
-    transition: 1s;
+    transition: .5s;
 }
 
 .menu--black li:hover {
@@ -594,7 +593,7 @@ body {
     justify-content: center;
     background-color: rgb(90, 113, 219);
     align-items: center;
-    transition: 1s;
+    transition: .5s;
     position: sticky;
     margin-top: -9px;
     margin-left: -6px;
@@ -611,7 +610,7 @@ body {
     padding-left: 2px;
     padding-top: .7em;
     cursor: pointer;
-    transition: 1s;
+    transition: .5s;
 }
 
 .menu--blue li:hover {
@@ -646,7 +645,7 @@ body {
     justify-content: center;
     background-color: rgba(33, 52, 139, 0.884);
     align-items: center;
-    transition: 1s;
+    transition: .5s;
     position: sticky;
     margin-top: -9px;
     margin-left: -6px;
@@ -663,7 +662,7 @@ body {
     padding-left: 2px;
     padding-top: .7em;
     cursor: pointer;
-    transition: 1s;
+    transition: 1.5s;
 }
 
 .menu--blue-dark li:hover {
@@ -695,7 +694,7 @@ body {
     justify-content: center;
     background-color: rgba(212, 46, 54, 0.904);
     align-items: center;
-    transition: 1s;
+    transition: .5s;
     position: sticky;
     margin-top: -9px;
     margin-left: -6px;
@@ -712,7 +711,7 @@ body {
     padding-left: 2px;
     padding-top: .7em;
     cursor: pointer;
-    transition: 1s;
+    transition: .5s;
 }
 
 .menu--red li:hover {
@@ -744,7 +743,7 @@ body {
     justify-content: center;
     background-color: rgba(236, 230, 230, 0.904);
     align-items: center;
-    transition: 1s;
+    transition: .4s;
     position: sticky;
     margin-top: -9px;
     margin-left: -6px;
@@ -762,7 +761,7 @@ body {
     padding-left: 2px;
     padding-top: .7em;
     cursor: pointer;
-    transition: 1s;
+    transition: .5s;
 }
 
 .menu--white li:hover {
@@ -773,7 +772,7 @@ body {
     color: #333;
     text-decoration-line: none;
     font-family: roboto;
-    transition: .4s;
+    border-color: #bbb;
 }
 
 .menu--white>li>a:hover {
@@ -900,43 +899,95 @@ table
 /*
 	animation
 */
-
-.in {
-    animation: fadeIn .6s linear backwards;
-    transition: .8s;
+.inBottom{
+  animation: inBottoms .7s .2s linear;
+}
+@keyframes inBottoms{
+  from {
+    transform: translateY(6px);
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+    transition: 1s;
+    transform: translateY(0);
+  }
 }
 
-@keyframes fadeIn {
-    from {
-        transform: translateY(-5px);
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-        transition: .4s;
-    }
+ .inLeft{
+  animation: inLefts .7s linear;
+}
+@keyframes inLefts{
+  from {
+    transform: translateX(5px);
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+    transition: 1s;
+  }
 }
 
-.out {
-    animation: out .3s linear;
+.inRigth{
+  animation: inRigths .5s linear;
+}
+@keyframes inRigths{
+  from {
+    transform: translateX(-8px);
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+    transition: 1s;
+  }
+}
+
+.inTop{
+  animation: inTops .5s linear;
+}
+@keyframes  inTops{
+  from {
+    transform: translateY(-4px);
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+    transition: 1s;
+  }
+}
+
+
+.in{
+  animation: ins .7s .3s linear;
+  transition: 1s;
+}
+@keyframes ins{
+  from {
     transition: .6s;
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+    transition: 1s;
+  }
 }
 
-@keyframes out {
-    from {
-        opacity: 1;
-    }
-    to {
-        opacity: 0
-    }
+.out{
+  animation: outs .4s linear;
+  transition: 1s;
+}
+@keyframes outs{
+  from {
+    transition: .6s;
+    opacity: 1;
+  }
+  to{
+    opacity: 0;
+    transition: 1s;
+  }
 }
 
 
-/*
-	family letters
-
- */
 
 .title {
     color: #222;
@@ -1122,8 +1173,16 @@ table
     background-color: rgba(197, 70, 134, 0.808);
     transition: .8s;
 }
+.menu li{
+  border:none;
+}
+.active{
+  border-bottom: 3px solid white;
+  padding-top: 2px;
 
+  transition :1s;
 
+}
 /* color text */
 
 .text--blue {
@@ -1150,3 +1209,28 @@ table
     color: rgb(173, 118, 16);
     font-family: Arial;
 }
+
+/*
+  content position
+ */
+ .contentRigth{
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+ }
+ .contentLeft{
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+ }
+
+ .contentCenter{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .left{
+   float: left;
+   left: 0;
+ }
