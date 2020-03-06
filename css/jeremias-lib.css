@@ -572,7 +572,10 @@ body {
     color: #eee;
     text-decoration-line: none;
     font-family: roboto;
-    transition: .4s;
+
+    border-bottom-width: 3px;
+    padding-top: 2px;
+    transition :1s;
 }
 
 .menu--black>li>a:hover {
@@ -621,7 +624,9 @@ body {
     color: #eee;
     text-decoration-line: none;
     font-family: roboto;
-    transition: .4s;
+    border-bottom-width: 3px;
+    padding-top: 2px;
+    transition :1s;
 }
 
 .menu--blue>li>a:hover {
@@ -643,7 +648,7 @@ body {
     width: 100vw;
     height: 50px;
     justify-content: center;
-    background-color: rgba(33, 52, 139, 0.884);
+    background-color: rgba(33, 52, 139, 0.984);
     align-items: center;
     transition: .5s;
     position: sticky;
@@ -673,7 +678,9 @@ body {
     color: #eee;
     text-decoration-line: none;
     font-family: roboto;
-    transition: .4s;
+    border-bottom-width: 3px;
+    padding-top: 2px;
+    transition :1s;
 }
 
 .menu--blue-dark>li>a:hover {
@@ -692,7 +699,7 @@ body {
     width: 100vw;
     height: 50px;
     justify-content: center;
-    background-color: rgba(212, 46, 54, 0.904);
+    background-color: rgba(212, 36, 58, 0.904);
     align-items: center;
     transition: .5s;
     position: sticky;
@@ -722,7 +729,9 @@ body {
     color: #eee;
     text-decoration-line: none;
     font-family: roboto;
-    transition: .4s;
+    border-bottom-width: 3px;
+    padding-top: 2px;
+    transition :1s;
 }
 
 .menu--red>li>a:hover {
@@ -773,6 +782,9 @@ body {
     text-decoration-line: none;
     font-family: roboto;
     border-color: #bbb;
+    border-bottom-width: 3px;
+    padding-top: 2px;
+    transition :1s;
 }
 
 .menu--white>li>a:hover {
@@ -791,7 +803,7 @@ body {
     width: 100vw;
     height: 50px;
     justify-content: center;
-    background-color: rgba(219, 69, 152, 0.822);
+    background-color: rgba(989, 80, 152, 0.980);
     align-items: center;
     transition: 1s;
     position: sticky;
@@ -815,17 +827,73 @@ body {
 }
 
 .menu--pink li:hover {
-    background-color: rgba(197, 70, 134, 0.808);
+    background-color: rgba(197, 90, 134, 0.808);
 }
 
 .menu--pink>li>a {
     color: rgb(255, 251, 251);
     text-decoration-line: none;
     font-family: roboto;
-    transition: .4s;
+    border-bottom-width: 3px;
+    padding-top: 2px;
+    transition :1s;
 }
 
 .menu--pink>li>a:hover {
+    opacity: .9;
+    transition: .4s;
+}
+
+
+
+
+/* menu orange */
+
+.menu--orange {
+    display: flex;
+    margin: 0 0 0px 0;
+    padding: 0 0;
+    border: 0;
+    width: 100vw;
+    height: 50px;
+    justify-content: center;
+    background-color: #e89a25;
+    align-items: center;
+    transition: 1s;
+    position: sticky;
+    margin-top: -9px;
+    margin-left: -6px;
+    border-bottom: 1px solid orange;
+}
+
+.menu--orange>li {
+    font-weight: bolder;
+    color: rgb(248, 247, 247);
+    line-height: 30px;
+    list-style: none;
+    margin: 0 3px -0px 0px;
+    height: 30px;
+    margin-right: 0;
+    padding-left: 2px;
+    padding-top: .7em;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.menu--orange li:hover {
+    background-color: orange;
+}
+
+.menu--orange>li>a {
+    color: rgb(255, 251, 251);
+    text-decoration-line: none;
+    font-family: roboto;
+    border-bottom-width: 3px;
+    padding-top: 2px;
+    transition :1s;
+}
+
+.menu--orange>li>a:hover {
     opacity: .9;
     transition: .4s;
 }
