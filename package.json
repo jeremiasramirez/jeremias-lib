@@ -1,6 +1,6 @@
 {
   "name": "jeremias-lib",
-  "version": "1.3.3",
+  "version": "1.4.4",
   "description": "interfaces css y jascript",
   "main": "index.js",
   "scripts": {
