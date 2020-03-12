@@ -809,7 +809,8 @@ html, body{
     position: sticky;
     margin-top: -9px;
     /* margin-left: -6px; */
-    border-bottom: 1px solid rgba(219, 107, 172, 0.952)
+
+    /* border-bottom: 1px solid rgba(219, 107, 172, 0.952) */
 }
 
 .menu--pink>li {
@@ -1301,4 +1302,35 @@ table
  .left{
    float: left;
    left: 0;
+ }
+
+ /* Theme pink */
+ .theme--pink{
+   border-bottom-right-radius: 5px;
+   border-bottom-left-radius: 5px;
+  background-color:rgba(989, 80, 152, 0.980);
+  transition:.5s;
+ }
+ .theme--pink *{
+   color: white;
+   font-size: 18px;
+   margin:0;
+   padding:.5em 0 .5em .3em;
+   font-family: roboto;
+ }
+
+
+ /* Theme red */
+ .theme--red{
+   border-bottom-right-radius: 5px;
+   border-bottom-left-radius: 5px;
+   background-color: rgba(212, 36, 58, 0.904);
+   transition:.5s;
+ }
+ .theme--red *{
+   color: white;
+   font-size: 18px;
+   margin:0;
+   padding:.5em 0 .5em .3em;
+   font-family: roboto;
  }
