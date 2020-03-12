@@ -88,6 +88,18 @@ libreria para gestionar estilos en html y DOM
 
 <li><strong>(3) active</strong> apariencia de item de menu seleccionado.</li>
 
+
+<h1>Themes colors</h1>
+
+<li><strong>(1) theme--blue</strong> theme blue</li>
+<li><strong>(2) theme--blue-dark</strong>theme dark blue</li>
+<li><strong>(3) theme--orange</strong> theme orange.</li>
+<li><strong>(4) theme--red</strong> theme red</li>
+<li><strong>(5) theme--white</strong> theme white.</li>
+<li><strong>(5) theme--black</strong> theme black</li>
+
+
+
 <h1>animations</h1>
 
 <li><strong>(1) in</strong> animacion fresca para mostrar informacion centrada</li>
