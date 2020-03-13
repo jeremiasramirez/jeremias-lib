@@ -76,11 +76,19 @@ libreria para gestionar estilos en html y DOM
 
 <h1>Menu</h1>
 
-<li><strong>(1) menu--blue:</strong> letra minima</li>
+<li><strong>(1) menu--blue:</strong> menu apariencia azul</li>
 
-<li><strong>(2) menu--white:</strong> letra minima</li>
+<li><strong>(2) menu--white:</strong> menu apariencia blanco</li>
 
-<li><strong>(3) menu--black:</strong> letra minima</li>
+<li><strong>(3) menu--black:</strong> menu apariencia negro</li>
+
+<li><strong>(4) menu--red:</strong> menu apariencia rojo</li>
+
+<li><strong>(5) menu--orange:</strong> menu apariencia orange</li>
+
+<li><strong>(6) menu--pink:</strong> menu apariencia pink</li>
+
+<li><strong>(7) menu--green:</strong> menu apariencia green</li>
 
 <!-- Menu activated -->
 
@@ -96,7 +104,8 @@ libreria para gestionar estilos en html y DOM
 <li><strong>(3) theme--orange</strong> theme orange.</li>
 <li><strong>(4) theme--red</strong> theme red</li>
 <li><strong>(5) theme--white</strong> theme white.</li>
-<li><strong>(5) theme--black</strong> theme black</li>
+<li><strong>(6) theme--black</strong> theme black</li>
+<li><strong>(7) theme--green</strong> theme green</li>
 
 
 
