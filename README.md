@@ -33,6 +33,23 @@ libreria para gestionar estilos en html y DOM
 <li><strong>(1) btn--yes:</strong> boton con sintaxis de 'agregar elementos'</li>
 <li><strong>(2) btn--rm:</strong> boton con sintaxis de 'remover elemento o cancelar operacion'</li>
 
+<h1>BOTONES colors
+***css***</h1>
+<li>(1) btn--blue </li>
+<li>(2) btn--red </li>
+<li>(3) btn--orange </li>
+<li>(4) btn--black </li>
+<li>(5) btn--white </li>
+<li>(6) btn--pink </li>
+
+<h1>CARD
+***css***</h1>
+<li>(1) card </li>
+<li>(1) card--title </li>
+<li>(1) card--content </li>
+<li>(1) card--img </li>
+<li>(1) card--footer </li>
+
 <h1>FORMULARIOS
 ***css***</h1>
 

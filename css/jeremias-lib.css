@@ -273,13 +273,15 @@ html, body{
     margin: .7em;
 }
 
-.btn--rm:hover {
+.btn--error:hover {
     transition: .3s;
     background-color: rgba(80%, 0%, 0%, 100%);
     text-decoration: none;
     color: #eee;
     cursor: pointer;
 }
+
+
 
 .btn--yes {
     border-radius: 4px;
@@ -715,7 +717,7 @@ html, body{
 
 .menu--green>li {
     font-weight: bolder;
-    color: #eee;
+    color: white;
     border-bottom-left-radius: 4px;
     border-bottom-right-radius: 4px;
     line-height: 30px;
@@ -734,7 +736,7 @@ html, body{
 }
 
 .menu--green>li>a {
-    color: #eee;
+    color: white;
     text-decoration-line: none;
     font-family: roboto;
     border-bottom-width: 3px;
@@ -1375,6 +1377,7 @@ table
 
  /* Theme pink */
  .theme--pink{
+   margin-top: -2px;
    border-bottom-right-radius: 5px;
    border-bottom-left-radius: 5px;
   background-color:rgba(989, 80, 152, 0.980);
@@ -1390,6 +1393,7 @@ table
 
  /* Theme blue */
  .theme--blue{
+   margin-top: -2px;
    border-bottom-right-radius: 5px;
    border-bottom-left-radius: 5px;
    background-color: rgb(90, 113, 219);
@@ -1405,6 +1409,8 @@ table
 
  /* Theme red */
  .theme--red{
+   margin-top: -0px;
+   border:none;
    border-bottom-right-radius: 5px;
    border-bottom-left-radius: 5px;
    background-color: rgba(212, 36, 58, 0.904);
@@ -1421,6 +1427,7 @@ table
 
  /* Theme black */
  .theme--black{
+   margin-top: -2px;
    border-bottom-right-radius: 5px;
    border-bottom-left-radius: 5px;
    background-color: #222;
@@ -1436,6 +1443,7 @@ table
 
  /* Theme blue-dark */
  .theme--blue-dark{
+   margin-top: -2px;
    border-bottom-right-radius: 5px;
    border-bottom-left-radius: 5px;
    background-color: rgba(33, 52, 139, 0.984);
@@ -1451,6 +1459,7 @@ table
 
  /* Theme orange */
  .theme--orange{
+   margin-top: -2px;
    border-bottom-right-radius: 5px;
    border-bottom-left-radius: 5px;
    background-color: orangered;
@@ -1466,6 +1475,7 @@ table
 
 /* theme white */
  .theme--white{
+   margin-top: 0px;
    border-bottom-right-radius: 5px;
    border-bottom-left-radius: 5px;
    background-color: #eee;
@@ -1483,15 +1493,273 @@ table
 
  /* theme green */
   .theme--green{
+    margin-top: 0;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
     background-color: rgba(0%, 80%, 0%, 75%);
     transition:.5s;
   }
   .theme--green *{
-    color: white;;
+    color: white;
     font-size: 18px;
     margin:0;
     padding:.5em 0 .5em .3em;
     font-family: roboto;
   }
+
+
+
+  .container{
+    padding: .4em;
+    margin: .3em;
+  }
+  .container--card{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .card{
+    width: 300px;
+    border: 1px solid #eee;
+    border-top: none;
+    padding: 0 .2em;
+    cursor: pointer;
+    transition: .4s;
+    margin: 2px .3em;
+    margin-bottom: 20px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+  }
+  .card:hover{
+    transform: translateY(-1px);
+    transition: .4s;
+  }
+
+  .card--title{
+    margin: 0;
+    text-align: center;
+    padding:.6em 0;
+    font-size: 20px;
+    font-family: arial;
+    border-top: 1px solid #eee;
+
+  }
+  .card--img{
+    width: inherit;
+    margin:0;
+    margin-top: 5px;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    padding:0;
+  }
+
+  .card--content{
+    font-family: roboto;
+    text-align: center;
+  }
+  .card--footer{
+    margin:0;
+
+    text-align: center;
+    padding:0;
+    width: 100%;
+    height: 38px;
+  }
+  .card--footer *{
+    margin:0;
+    margin-top: 3px;
+  }
+
+  /* button colors */
+
+
+  /* btn pink */
+    .btn--pink {
+        border-radius: 4px;
+        padding: .4em .5em;
+        border-color: transparent;
+        background-color:rgba(989, 80, 152, 0.980);
+        font-size: 15px;
+        font-family: arial;
+        cursor: pointer;
+        font-weight: 600;
+        display: inline-block;
+        text-decoration: none;
+        text-align: center;
+        transition: .3s;
+        color: #eee;
+        margin: .7em;
+    }
+
+    .btn--pink:hover {
+        transition: .3s;
+        background-color:rgba(989, 80, 152, 0.880);
+        text-decoration: none;
+        color: #eee;
+        cursor: pointer;
+    }
+
+
+
+  /* btn white */
+    .btn--white {
+        border-radius: 4px;
+        padding: .4em .5em;
+        border-color: transparent;
+        background-color: #ddd;
+        font-size: 15px;
+        font-family: arial;
+        cursor: pointer;
+        font-weight: 600;
+        display: inline-block;
+        text-decoration: none;
+        text-align: center;
+        transition: .3s;
+        color: #555;
+        margin: .7em;
+    }
+
+    .btn--white:hover {
+        transition: .3s;
+        background-color: #ccc;
+        text-decoration: none;
+        color: #333;
+        cursor: pointer;
+    }
+
+  /* btn red */
+    .btn--red {
+        border-radius: 4px;
+        padding: .4em .5em;
+        border-color: transparent;
+   background-color: rgba(212, 36, 58, 0.904);
+        font-size: 15px;
+        font-family: arial;
+        cursor: pointer;
+        font-weight: 600;
+        display: inline-block;
+        text-decoration: none;
+        text-align: center;
+        transition: .3s;
+        color: #eee;
+        margin: .7em;
+    }
+
+    .btn--red:hover {
+        transition: .3s;
+        background-color: rgba(212, 36, 58, 0.804);
+        text-decoration: none;
+        color: #eee;
+        cursor: pointer;
+    }
+
+
+/* btn blue */
+  .btn--blue {
+      border-radius: 4px;
+      padding: .4em .5em;
+      border-color: transparent;
+       background-color: rgb(90, 113, 219);
+      font-size: 15px;
+      font-family: arial;
+      cursor: pointer;
+      font-weight: 600;
+      display: inline-block;
+      text-decoration: none;
+      text-align: center;
+      transition: .3s;
+      color: #eee;
+      margin: .7em;
+  }
+
+  .btn--blue:hover {
+      transition: .3s;
+ background-color: rgb(90, 113, 319);
+      text-decoration: none;
+      color: #eee;
+      cursor: pointer;
+  }
+
+
+
+/* btn green */
+  .btn--green {
+      border-radius: 4px;
+      padding: .4em .5em;
+      border-color: transparent;
+      background-color: rgba(0%, 80%, 0%, 75%);
+      font-size: 15px;
+      font-family: arial;
+      cursor: pointer;
+      font-weight: 600;
+      display: inline-block;
+      text-decoration: none;
+      text-align: center;
+      transition: .3s;
+      color: #eee;
+      margin: .7em;
+  }
+
+  .btn--green:hover {
+      transition: .3s;
+         background-color: rgba(0%, 80%, 0%, 85%);
+      text-decoration: none;
+      color: #eee;
+      cursor: pointer;
+  }
+
+ /* btn orange */
+  .btn--orange {
+      border-radius: 4px;
+      padding: .4em .5em;
+      border-color: transparent;
+       background-color: orangered;
+      font-size: 15px;
+      font-family: arial;
+      cursor: pointer;
+      font-weight: 600;
+      display: inline-block;
+      text-decoration: none;
+      text-align: center;
+      transition: .3s;
+      color: #eee;
+      margin: .7em;
+  }
+
+  .btn--orange:hover {
+      transition: .3s;
+     background-color: rgba(60%, 0%, 0%, 90%);
+      text-decoration: none;
+      color: #eee;
+      cursor: pointer;
+  }
+/* btn black */
+  .btn--black {
+      border-radius: 4px;
+      padding: .4em .5em;
+      border-color: transparent;
+      background-color: #222;
+      font-size: 15px;
+      font-family: arial;
+      cursor: pointer;
+      font-weight: 600;
+      display: inline-block;
+      text-decoration: none;
+      text-align: center;
+      transition: .3s;
+      color: #eee;
+      margin: .7em;
+  }
+
+  .btn--black:hover {
+      transition: .3s;
+         background-color: #333;
+      text-decoration: none;
+      color: #eee;
+      cursor: pointer;
+  }
+
+
+  /* end button colors */
