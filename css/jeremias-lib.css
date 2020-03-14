@@ -1167,7 +1167,7 @@ table
 
 /*red*/
 
-.bg--red {
+.select--red {
     background-color: rgba(80%, 0%, 0%, 70%);
     color: white !important;
 }
@@ -1175,7 +1175,7 @@ table
 
 /*blue*/
 
-.bg--blue {
+.select--blue {
     background-color: rgba(0%, 0%, 90%, 90%);
     color: #ddd;
 }
@@ -1183,7 +1183,7 @@ table
 
 /*black*/
 
-.bg--black {
+.select--black {
     background-color: #222;
     color: white;
 }
@@ -1191,7 +1191,7 @@ table
 
 /*orange*/
 
-.bg--orange {
+.select--orange {
     background-color: darkorange;
     color: white;
 }
@@ -1199,7 +1199,7 @@ table
 
 /*white*/
 
-.bg--white {
+.select--white {
     background-color: white;
     color: #222;
     border: 1px solid #eee;
@@ -1208,7 +1208,7 @@ table
 
 /*green*/
 
-.bg--green {
+.select--green {
     background-color: rgba(0%, 70%, 0%, 80%);
     color: white;
 }
@@ -1547,6 +1547,7 @@ table
     margin: 0;
     text-align: center;
     padding:.6em 0;
+    width: inherit;
     font-size: 20px;
     font-family: arial;
     border-top: 1px solid #eee;
@@ -1569,11 +1570,12 @@ table
   }
   .card--footer{
     margin:0;
-
+    margin-left: -7px;
+    margin-bottom: -6px;
     text-align: center;
     padding:0;
     width: 100%;
-    height: 38px;
+
   }
   .card--footer *{
     margin:0;

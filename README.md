@@ -50,25 +50,28 @@ libreria para gestionar estilos en html y DOM
 <li>(1) card--img </li>
 <li>(1) card--footer </li>
 
-<h1>FORMULARIOS
-***css***</h1>
+<h1>FORMULARIOS</h1>
 
 <li><strong>(1) form:</strong> clase que le da una buena sintaxis al formulario, removiendo curvaturas no agradables.</li>
 
-<li><strong>(1) input:</strong> clase que le da una buena sintaxis al input indicado</li>
+<h1>Select</h1>
+
+<li><strong>(1) select:</strong></li>
+<li><strong>(2) select--blue:</strong></li>
+<li><strong>(3) select--red:</strong></li>
+<li><strong>(4) select--green:</strong></li>
+<li><strong>(5) select--white:</strong></li>
+<li><strong>(6) select--orange:</strong></li>
 
 
- <li><strong>(2) check:</strong> clase para label que contenga inputs con type=checkbox</li>
 
-  <li><strong>(2) select:</strong> estiliza la etiqueta select</li>
 
 <h1>ELEMENTOS VISUALES</h1>
 
-<li><strong>(1) close:</strong> elemento que elimina al elemento padre del mismo (ojo, el padre debe tener el Id "parent").</li>
 
-<li><strong>(2) blur:</strong> clase que le da una opacidad a cierto elemento.</li>
+<li><strong>(1) blur:</strong> clase que le da una opacidad a cierto elemento.</li>
 
-<li><strong>(3) dark:</strong> clase que le da un fondo negro a un elementos.</li>
+<li><strong>(2) dark:</strong> clase que le da un fondo negro a un elementos.</li>
 
 <h1>LISTAS</h1>
 
