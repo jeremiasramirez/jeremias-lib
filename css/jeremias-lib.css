@@ -542,7 +542,7 @@ html, body{
     border: 0;
     margin-top: -9px;
     /* margin-left: -6px; */
-    width: 100vw;
+    width: 100%;
     height: 60px;
     justify-content: center;
     background-color: #222;
@@ -595,7 +595,7 @@ html, body{
     margin: 0 0 0px 0;
     padding: 0 0;
     border: 0;
-    width: 100vw;
+    width: 100%;
     height: 60px;
     justify-content: center;
     background-color: rgb(90, 113, 219);
@@ -651,7 +651,7 @@ html, body{
     margin: 0 0 0px 0;
     padding: 0 0;
     border: 0;
-    width: 100vw;
+    width: 100%;
     height: 60px;
     justify-content: center;
     background-color: rgba(33, 52, 139, 0.984);
@@ -704,7 +704,7 @@ html, body{
     margin: 0 0 0px 0;
     padding: 0 0;
     border: 0;
-    width: 100vw;
+    width: 100%;
     height: 60px;
     justify-content: center;
     background-color: rgba(0%, 80%, 0%, 75%);
@@ -757,7 +757,7 @@ html, body{
     margin: 0 0 0px 0;
     padding: 0 0;
     border: 0;
-    width: 100vw;
+    width: 100%;
     height: 60px;
     justify-content: center;
     background-color: rgba(212, 36, 58, 0.904);
@@ -811,7 +811,7 @@ html, body{
     margin: 0 0 0px 0;
     padding: 0 0;
     border: 0;
-    width: 100vw;
+    width: 100%;
     height: 60px;
     justify-content: center;
     background-color: rgba(236, 230, 230, 0.904);
@@ -867,7 +867,7 @@ html, body{
     margin: 0 0 0px 0;
     padding: 0 0;
     border: 0;
-    width: 100vw;
+    width: 100%;
     height: 60px;
     justify-content: center;
     background-color: rgba(989, 80, 152, 0.980);
@@ -924,7 +924,7 @@ html, body{
     margin: 0 0 0px 0;
     padding: 0 0;
     border: 0;
-    width: 100vw;
+    width: 100%;
     height: 60px;
     justify-content: center;
     background-color: orangered;
@@ -1377,6 +1377,7 @@ table
 
  /* Theme pink */
  .theme--pink{
+   width: inherit;
    margin-top: -2px;
    border-bottom-right-radius: 5px;
    border-bottom-left-radius: 5px;
@@ -1393,6 +1394,7 @@ table
 
  /* Theme blue */
  .theme--blue{
+   width: inherit;
    margin-top: -2px;
    border-bottom-right-radius: 5px;
    border-bottom-left-radius: 5px;
@@ -1409,6 +1411,7 @@ table
 
  /* Theme red */
  .theme--red{
+   width: inherit;
    margin-top: -0px;
    border:none;
    border-bottom-right-radius: 5px;
@@ -1427,6 +1430,7 @@ table
 
  /* Theme black */
  .theme--black{
+   width: inherit;
    margin-top: -2px;
    border-bottom-right-radius: 5px;
    border-bottom-left-radius: 5px;
@@ -1443,6 +1447,7 @@ table
 
  /* Theme blue-dark */
  .theme--blue-dark{
+   width: inherit;
    margin-top: -2px;
    border-bottom-right-radius: 5px;
    border-bottom-left-radius: 5px;
@@ -1459,6 +1464,7 @@ table
 
  /* Theme orange */
  .theme--orange{
+   width: inherit;
    margin-top: -2px;
    border-bottom-right-radius: 5px;
    border-bottom-left-radius: 5px;
@@ -1475,10 +1481,11 @@ table
 
 /* theme white */
  .theme--white{
+   width: inherit;
    margin-top: 0px;
    border-bottom-right-radius: 5px;
    border-bottom-left-radius: 5px;
-   background-color: #eee;
+   background-color: rgba(236, 230, 230, 0.904);
    transition:.5s;
  }
  .theme--white *{
@@ -1493,6 +1500,7 @@ table
 
  /* theme green */
   .theme--green{
+    width: inherit;
     margin-top: 0;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
