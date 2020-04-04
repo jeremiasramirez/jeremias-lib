@@ -568,9 +568,6 @@ html, body{
     transition: .5s;
 }
 
-.menu--black li:hover {
-    background-color: #133;
-}
 
 .menu--black>li>a {
     color: #eee;
@@ -622,9 +619,7 @@ html, body{
     transition: .5s;
 }
 
-.menu--blue li:hover {
-    background-color: rgb(30, 69, 284, 880);
-}
+
 
 .menu--blue>li>a {
     color: #eee;
@@ -678,9 +673,6 @@ html, body{
     transition: 1.5s;
 }
 
-.menu--blue-dark li:hover {
-      background-color: rgba(0, 0, 119, 804);
-}
 
 .menu--blue-dark>li>a {
     color: #eee;
@@ -731,9 +723,6 @@ html, body{
     transition: .5s;
 }
 
-.menu--green li:hover {
-    background-color: rgba(0%, 80%, 0%, 40%);
-}
 
 .menu--green>li>a {
     color: white;
@@ -785,9 +774,6 @@ html, body{
     transition: .5s;
 }
 
-.menu--red li:hover {
-    background-color: rgba(158, 44, 44, 0.808);
-}
 
 .menu--red>li>a {
     color: #eee;
@@ -840,9 +826,7 @@ html, body{
     transition: .5s;
 }
 
-.menu--white li:hover {
-    background-color: #9999;
-}
+
 
 .menu--white>li>a {
     color: #333;
@@ -896,9 +880,6 @@ html, body{
     transition: 1s;
 }
 
-.menu--pink li:hover {
-    background-color: rgba(197, 90, 134, 0.808);
-}
 
 .menu--pink>li>a {
     color: rgb(255, 251, 251);
@@ -952,9 +933,6 @@ html, body{
     transition: 1s;
 }
 
-.menu--orange li:hover {
-    background-color: rgba(155, 0, 0, 0.3);
-}
 
 .menu--orange>li>a {
     color: rgb(255, 251, 251);
